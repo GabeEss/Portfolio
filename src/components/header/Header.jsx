@@ -4,8 +4,12 @@ import PortraitContainer from "./PortraitContainer";
 const Header = () => {
     return(
         <header>
-            <PortraitContainer/>
-            <AboutMe/>
+            <div className="portrait-container">
+                <PortraitContainer/>
+            </div>
+            <div className="aboutme-container">
+                <AboutMe/>
+            </div>
         </header>
     )
 }
