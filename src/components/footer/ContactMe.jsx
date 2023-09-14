@@ -11,12 +11,12 @@ const ContactMe = () => {
 
         <ul className="contact-details">
             <li>
-            <i className="fab fa-github"></i> {/* Use actual GitHub icon */}
-            <a href="https://github.com/yourgithub" target="_blank" rel="noopener noreferrer">GitHub Profile</a>
+                <i className="fab fa-github"></i> {/* Use actual GitHub icon */}
+                <a href="https://github.com/yourgithub" target="_blank" rel="noopener noreferrer">GitHub Profile</a>
             </li>
             <li>
-            <i className="fab fa-linkedin"></i> {/* Use actual LinkedIn icon */}
-            <a href="https://www.linkedin.com/in/yourlinkedin" target="_blank" rel="noopener noreferrer">LinkedIn Profile</a>
+                <i className="fab fa-linkedin"></i> {/* Use actual LinkedIn icon */}
+                <a href="https://www.linkedin.com/in/yourlinkedin" target="_blank" rel="noopener noreferrer">LinkedIn Profile</a>
             </li>
         </ul>
     </section>
