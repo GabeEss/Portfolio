@@ -3,7 +3,7 @@ import portrait from "../../assets/illustration-of-human-icon-user-symbol-icon-m
 const PortraitContainer = () => {
     return(
         <>
-            <img src={portrait} alt=""/>
+            <img src={portrait} alt="" id="header-portrait"/>
         </>
     )
 }
