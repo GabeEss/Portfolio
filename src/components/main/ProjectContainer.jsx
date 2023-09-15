@@ -1,20 +1,21 @@
 import PropTypes from "prop-types";
+import gitlogo from "../../assets/github-mark.png";
+import linkicon from "../../assets/external-link.png";
 
 const ProjectContainer = (props) => {
-    const {title, description, deployLink, projectLink} = props.project;
+    const {title, description, deployLink, projectLink, screenshot} = props.project;
 
     return(
         <>
             <div className="project container">
-                <p className="screenshot">Screenshot of {title}</p>
-                <div>
-                    <div>
-                        <h4>{title}</h4>
-                        <i className="fab fa-github"></i> {/* Use actual GitHub icon */}
-                        <a href={projectLink} target="_blank" rel="noopener noreferrer">{title} on Github</a>
-                        <a href={deployLink} target="_blank" rel="noopener noreferrer">{title} Deployed</a>
-                    </div>
+                <img src={screenshot} alt="" className="screenshot"></img>
+                <div className="project-text">
+                    <h3>{title}</h3>
                     <p>{description}</p>
+                </div>
+                <div className="links">
+                            <a href={projectLink} target="_blank" rel="noopener noreferrer"><img src={gitlogo} alt={title} className="logo-main"/></a>
+                            <a href={deployLink} target="_blank" rel="noopener noreferrer"><img src={linkicon} alt="To deployed site." className="logo-main" /></a>
                 </div>
             </div>
         </>
@@ -27,6 +28,7 @@ ProjectContainer.propTypes = {
         description: PropTypes.string.isRequired,
         deployLink: PropTypes.string.isRequired,
         projectLink: PropTypes.string.isRequired,
+        screenshot: PropTypes.string.isRequired
     }).isRequired,
 };
 

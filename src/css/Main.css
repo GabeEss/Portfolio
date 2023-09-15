@@ -21,3 +21,38 @@ main{
       grid-template-columns: 1fr; /* Display one column on phones */
     }
   }
+
+.logo-main {
+    max-width: 25px;
+    height: auto; 
+}
+
+.screenshot {
+    max-width: 0px; /* I don't think this looks good.*/
+    height: auto;
+    padding-bottom: 1em;
+}
+
+.project {
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.project-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+
+.links {
+    padding-top: .8em;
+    display: flex;
+    justify-content: flex-end;
+    gap: .2em;
+}

@@ -1,23 +1,31 @@
+import linkedlogo from "../../assets/LI-in-Bug.png";
+import gitlogo from "../../assets/GitHub_Logo_White.png";
+
 const ContactMe = () => {
     return(
     <section className="contact">
         <h2>Contact Me</h2>
         <p>I am open to new opportunities! Get in touch if you are interested in working together!</p>
+        
+        <div id="based">
+            <p>I am based in </p>
+            <address>
+                <p>Toronto, Ontario</p>
+            </address>
+            <p>.</p>
+        </div>
 
-        <address>
-            <p>I am based in Toronto, Ontario</p>
-        </address>
+        <><a href="">Send Email</a></>
 
         <ul className="contact-details">
             <li>
-                <i className="fab fa-github"></i> {/* Use actual GitHub icon */}
-                <a href="https://github.com/GabeEss" target="_blank" rel="noopener noreferrer">GitHub Profile</a>
+                <a href="https://github.com/GabeEss" target="_blank" rel="noopener noreferrer"><img src={gitlogo} alt="Gabe's Github Page" className="logo-footer" /></a>
             </li>
             <li>
-                <i className="fab fa-linkedin"></i> {/* Use actual LinkedIn icon */}
-                <a href="" target="_blank" rel="noopener noreferrer">LinkedIn Profile</a>
+                <a href="" target="_blank" rel="noopener noreferrer"><img src={linkedlogo} alt="Gabe's LinkedIn Page" className="logo-footer"></img></a>
             </li>
         </ul>
+        <a href="https://www.flaticon.com/free-icons/external-link" title="external link icons">External link icons created by Bharat Icons - Flaticon</a>
     </section>
     )
 }
