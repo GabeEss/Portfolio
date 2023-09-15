@@ -28,9 +28,18 @@ main{
 }
 
 .screenshot {
-    max-width: 0px; /* I don't think this looks good.*/
+    max-width: 200px;
     height: auto;
-    padding-bottom: 1em;
+    align-self: center;
+    border-radius: .5em;
+    opacity: .6;
+    transition: transform 0.2s ease-in-out, opacity 0.2s ease-in-out;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+.screenshot:hover {
+    transform: scale(1.05); /* Scale up on hover */
+    opacity: 1; /* Reduce opacity on hover */
 }
 
 .project {
@@ -38,11 +47,11 @@ main{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    align-items: center;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
 }
 
 .project-text {
+    padding-top: 1em;
     display: flex;
     flex-direction: column;
     justify-content: center;
