@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Hanken Grotesk', sans-serif;
+
+  }
+  
+  html, body {
+    margin: 0;
+    padding: 0;
+  }
+
+  .container {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+  }

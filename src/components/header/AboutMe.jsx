@@ -2,7 +2,7 @@ const AboutMe = () => {
     return(
         <>
             <h2>About me</h2>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores, minima! Reprehenderit iste voluptatum, laudantium beatae iusto nemo maiores eius sequi esse? Nulla, facere atque ipsa asperiores quasi quibusdam praesentium officiis!</p>
+            <p>I am a Web Developer familiar with an assortment of technologies, such as: Javascript, CSS, React, Webpack, Jest, and Firebase.</p>
         </>
     )
 }

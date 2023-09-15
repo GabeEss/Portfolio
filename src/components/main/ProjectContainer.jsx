@@ -5,17 +5,17 @@ const ProjectContainer = (props) => {
 
     return(
         <>
-            <div className="screenshot-container">
+            <div className="project container">
                 <p className="screenshot">Screenshot of {title}</p>
-            </div>
-            <div>
                 <div>
-                    <h4>{title}</h4>
-                    <i className="fab fa-github"></i> {/* Use actual GitHub icon */}
-                    <a href={projectLink} target="_blank" rel="noopener noreferrer">{title} on Github</a>
-                    <a href={deployLink} target="_blank" rel="noopener noreferrer">{title} Deployed</a>
+                    <div>
+                        <h4>{title}</h4>
+                        <i className="fab fa-github"></i> {/* Use actual GitHub icon */}
+                        <a href={projectLink} target="_blank" rel="noopener noreferrer">{title} on Github</a>
+                        <a href={deployLink} target="_blank" rel="noopener noreferrer">{title} Deployed</a>
+                    </div>
+                    <p>{description}</p>
                 </div>
-                <p>{description}</p>
             </div>
         </>
     )

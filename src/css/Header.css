@@ -1,0 +1,52 @@
+header{
+    display: flex;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+    align-items: center;
+}
+
+.aboutme{
+    background-color:rgba(255,255,255,.8);
+    border-radius:.25em;
+    box-shadow:0 0 .25em rgba(0,0,0,.25);
+    margin-top: 1em;
+    padding: .5em;
+    width: 80%; /* Adjust the width as needed */
+    max-width: 400px; /* Set a maximum width */
+}
+
+.portrait1{
+    background-color: whitesmoke;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4); /* Subtle shadow */
+    position: relative;
+    margin-right: 1em;
+    opacity: .82;
+}
+
+h2{
+    padding-bottom: .5em;
+}
+
+ /* Styles for the text overlay */
+ .text-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgba(255,255,255,.8);
+    color: black;
+  }
+
+/* Media query for phones (max-width: 768px) */
+@media (max-width: 768px) {
+    header {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  }

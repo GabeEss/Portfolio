@@ -1,11 +1,12 @@
 import ContactMe from "./ContactMe";
-import PortraitContainerFooter from "./SecondPortrait";
+import "../../css/Footer.css";
 
 const Footer = () => {
     return(
         <footer>
-            <ContactMe/>
-            <PortraitContainerFooter/>
+            <div className="contactme">
+                <ContactMe/>
+            </div>
         </footer>
     )
 }

@@ -1,6 +1,6 @@
 import ProjectContainer from "./ProjectContainer";
 
-const PortfolioContainer = () => {
+const Portfolio = () => {
     // Define an array of project data with specific information
     const projects = [
         { 
@@ -11,7 +11,7 @@ const PortfolioContainer = () => {
         },
         { 
             title: "Knight Travails",
-            description: "Find the quickest path for a knight to traverse a chessboard. Utilizes webpack and breadth-first traversal of a binary tree.",
+            description: "Find the quickest path for a knight to traverse a chessboard. Utilizes webpack.",
             deployLink: "https://gabeess.github.io/Knight-Travails/",
             projectLink: "https://github.com/GabeEss/Knight-Travails"
         },
@@ -42,7 +42,7 @@ const PortfolioContainer = () => {
     ];
 
     return (
-        <div id="portfolio-container">
+        <div id="portfolio">
             {/* Map through the array of projects and render a ProjectContainer for each */}
             {projects.map((project, index) => (
                 <ProjectContainer key={index} project={project} />
@@ -51,4 +51,4 @@ const PortfolioContainer = () => {
     );
 }
 
-export default PortfolioContainer;
+export default Portfolio;
