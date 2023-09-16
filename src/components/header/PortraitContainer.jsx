@@ -1,4 +1,4 @@
-import portrait from "../../assets/illustration-of-human-icon-user-symbol-icon-modern-design-on-blank-background-free-vector.jpeg";
+import portrait from "../../assets/usericon.jpeg";
 
 const PortraitContainer = () => {
     return(

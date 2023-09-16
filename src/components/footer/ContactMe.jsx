@@ -1,4 +1,4 @@
-import linkedlogo from "../../assets/LI-in-Bug.png";
+import linkedlogo from "../../assets/LIinBug.png";
 import gitlogo from "../../assets/GitHub_Logo_White.png";
 
 const ContactMe = () => {

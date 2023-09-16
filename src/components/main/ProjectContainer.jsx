@@ -1,6 +1,6 @@
 import PropTypes from "prop-types";
-import gitlogo from "../../assets/github-mark.png";
-import linkicon from "../../assets/external-link.png";
+import gitlogo from "../../assets/githubmark.png";
+import linkicon from "../../assets/externallink.png";
 
 const ProjectContainer = (props) => {
     const {title, description, deployLink, projectLink, screenshot} = props.project;

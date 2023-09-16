@@ -1,7 +1,7 @@
 import ProjectContainer from "./ProjectContainer";
 import battleship from "../../assets/Battleship.png";
-import knight from "../../assets/Knight Travails.png";
-import todo from "../../assets/Todo List.png";
+import knight from "../../assets/KnightTravails.png";
+import todo from "../../assets/TodoList.png";
 import memory from "../../assets/MemoryCard.png";
 import shopping from "../../assets/Shopping.png";
 import getit from "../../assets/GetIt.png";
